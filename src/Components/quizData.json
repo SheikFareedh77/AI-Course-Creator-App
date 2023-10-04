@@ -1,0 +1,130 @@
+{
+    "courses": [
+      {
+        "courseName": "Practical Software Testing 2023-Manual+JIRA+API+DB+Selenium",
+        "image":"softTesting",
+        "questions": [
+          {
+            "questionText": "What is the primary purpose of software testing?",
+            "options": ["To find bugs in software", "To ensure the software works as expected", "Both A and B"],
+            "correctAnswer": "Both A and B"
+          },
+          {
+            "questionText": "What is Regression Testing?",
+            "options": ["Testing the whole system", "Testing only the modified parts of the code", "Load testing"],
+            "correctAnswer": "Testing only the modified parts of the code"
+          },
+          {
+            "questionText": "What does the 'V' in V-Model represent in Software Testing?",
+            "options": ["Verification and Validation", "Variation Model", "Visual Testing"],
+            "correctAnswer": "Verification and Validation"
+          },
+          {
+            "questionText": "Which testing technique is used to verify the behavior of a system against its specifications by feeding it input and examining the output?",
+            "options": ["White Box Testing", "Grey Box Testing", "Black Box Testing"],
+            "correctAnswer": "Black Box Testing"
+          },
+          {
+            "questionText": "Which of the following is not a black-box testing technique?",
+            "options": ["Boundary Value Analysis", "Decision Table Testing", "Statement Coverage"],
+            "correctAnswer": "Statement Coverage"
+          }
+        ]
+      },
+      {
+        "courseName": "React JS- Complete Guide for Frontend Web Development",
+        "image":"reactCourse",
+        "questions": [
+          {
+            "questionText": "What is React?",
+            "options": ["A JavaScript library for building user interfaces", "A server-side scripting language", "A database management system"],
+            "correctAnswer": "A server-side scripting language"
+          },
+          {
+            "questionText": "In React, what is the purpose of the useState hook?",
+            "options": ["To fetch data from an API", "To add state to functional components", "To manage form submissions"],
+            "correctAnswer": "To add state to functional components"
+          },
+          {
+            "questionText": "What does Redux help manage in a React application?",
+            "options": ["Component states", "Global state management", "Routing and navigation"],
+            "correctAnswer": "Global state management"
+          },
+          {
+            "questionText": "What is the purpose of React Router?",
+            "options": ["Managing state in React applications", "Managing navigation and routing in React applications", "Managing API calls in React applications"],
+            "correctAnswer": "Managing navigation and routing in React applications"
+          },
+          {
+            "questionText": "What does JSX stand for in React?",
+            "options": ["JavaScript XML", "Extended JavaScript", " XML JavaScript"],
+            "correctAnswer": "JavaScript XML"
+          }
+        ]
+      },
+      {
+        "courseName": "Web Development | HTML | CSS | JavaScript | jQuery | NodeJS",
+        "image":"webCourse",
+        "questions": [
+          {
+            "questionText": "Question 1 for Course A",
+            "options": ["Option A", "Option B", "Option C"],
+            "correctAnswer": "Option A"
+          }
+        ]
+      },
+      {
+        "courseName": "Database Management System from scratch - Part 1",
+        "image":"databaseCourse",
+        "questions": [
+          {
+            "questionText": "What does SQL stand for?",
+            "options": ["Secure Query Language", "Structured Query Language", "System Question Language"],
+            "correctAnswer": "Structured Query Language"
+          },
+          {
+            "questionText": "Which of the following is a valid data type in SQL to store a date?",
+            "options": ["VARCHAR", "DATE", "INTEGER"],
+            "correctAnswer": "DATE"
+          },
+          {
+            "questionText": "What is the purpose of the SQL SELECT statement?",
+            "options": [" To insert data into a table", "To delete data from a table", "To retrieve data from a table"],
+            "correctAnswer": "To retrieve data from a table"
+          },
+          {
+            "questionText": "Which SQL clause is used to filter records based on a specified condition?",
+            "options": ["ORDER BY", "HAVING", "WHERE"],
+            "correctAnswer": "WHERE"
+          },
+          {
+            "questionText": "What is the primary key in a database table?",
+            "options": [" A key used for encryption", "A unique identifier for a record in a table", "A foreign key from another table"],
+            "correctAnswer": "A unique identifier for a record in a table"
+          }
+        ]
+      },
+      {
+        "courseName": "The Ultimate Microsoft Excel Mastery Bundle - 8 Courses",
+        "image":"excelCourse",
+        "questions": [
+          {
+            "questionText": "Question 1 for Course A",
+            "options": ["Option A", "Option B", "Option C"],
+            "correctAnswer": "Option A"
+          }
+        ]
+      },
+      {
+        "courseName": "Learn DevOps: Docker, Kubernetes, Terraform and Azure",
+        "image":"devopsCourse",
+        "questions": [
+          {
+            "questionText": "Question 1 for Course A",
+            "options": ["Option A", "Option B", "Option C"],
+            "correctAnswer": "Option A"
+          }
+        ]
+      }
+  ]
+}
