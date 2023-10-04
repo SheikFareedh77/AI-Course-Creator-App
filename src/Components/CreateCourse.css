@@ -1,0 +1,65 @@
+#input-container{ 
+    position: relative;
+ margin-top: 30px;
+   height: 400px;
+   width:800px;
+   margin-left: 430px  ;
+   background-color: aliceblue;
+}
+#input-text {
+    word-wrap: break-word;
+       height: 100%;
+ position: relative;
+    padding: 0%;
+    margin: 0%  ;
+    text-align: center;
+   
+    
+}
+#input-text::placeholder{
+    cursor: text;
+    padding-top: 20px;
+    color: blue;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#input-text:focus{
+    outline: none;
+}
+.course-container .heading{
+    position: relative;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+}
+
+.container .course-container .heading{
+    background-color: aliceblue;
+    color: blue;
+    padding-top: 0%;
+    position: relative;
+    
+}
+
+#create-course-button{
+position: relative;
+margin-top: 20px;
+margin-left: 170px;
+background-color: #7CB9E8;
+border: none;
+color: white;
+height: 40px;
+width: 90px;
+}
+#create-course-button-hover{
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 170px;
+    background-color: blue;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 80px;
+}
