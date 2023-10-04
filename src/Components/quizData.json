@@ -67,11 +67,31 @@
         "image":"webCourse",
         "questions": [
           {
-            "questionText": "Question 1 for Course A",
-            "options": ["Option A", "Option B", "Option C"],
-            "correctAnswer": "Option A"
+            "questionText": "What does CSS stand for in web development?",
+            "options": ["Computer Style Sheets", "Creative Style Sheets", "Cascading Style Sheets"],
+            "correctAnswer": "Cascading Style Sheets"
+          },
+          {
+            "questionText": "Which of the following is NOT a programming language used for web development?",
+            "options": ["Java", "HTML", "SQL"],
+            "correctAnswer": "HTML"
+          },
+          {
+            "questionText": "What does API stand for in the context of web development?",
+            "options": ["Application Programming Interface", "Advanced Programming Interface", "Automated Programming Interface"],
+            "correctAnswer": "Application Programming Interface"
+          },
+          {
+            "questionText": "Which tag is used to define an unordered list in HTML?",
+            "options": ["<ol>", "<ul>", "<li>"],
+            "correctAnswer": "<ul>"
+          },
+          {
+            "questionText": "What does AJAX stand for in web development?",
+            "options": ["Asynchronous JavaScript and XML", "Advanced JavaScript and XML", "Automated JavaScript and XML"],
+            "correctAnswer": "Asynchronous JavaScript and XML"
           }
-        ]
+          ]
       },
       {
         "courseName": "Database Management System from scratch - Part 1",
@@ -109,9 +129,29 @@
         "image":"excelCourse",
         "questions": [
           {
-            "questionText": "Question 1 for Course A",
-            "options": ["Option A", "Option B", "Option C"],
-            "correctAnswer": "Option A"
+            "questionText": "What is the keyboard shortcut to paste values only in Excel (removing formulas)?",
+            "options": ["Ctrl + P", "Ctrl + V", "Ctrl + Shift + V"],
+            "correctAnswer": "Ctrl + Shift + V"
+          },
+          {
+            "questionText": "What function in Excel is used to find the highest number in a range?",
+            "options": ["=MAX()", "=TOP()", "=HIGH()"],
+            "correctAnswer": "=MAX()"
+          },
+          {
+            "questionText": "Which Excel feature allows you to view and edit multiple areas of a worksheet in the same workbook?",
+            "options": ["Split", "Freeze Panes", "Multi-Window"],
+            "correctAnswer": "Split"
+          },
+          {
+            "questionText": "What is the purpose of the VLOOKUP function in Excel?",
+            "options": ["It finds the highest value in a range", "It searches for a value in the leftmost column of a table and returns a value in the same row from a specified column.", "It performs vertical addition of a range of cells."],
+            "correctAnswer": "It searches for a value in the leftmost column of a table and returns a value in the same row from a specified column.9"
+          },
+          {
+            "questionText": "What Excel feature is used for data validation, ensuring that users enter only specified values into a cell?",
+            "options": ["Data Sorting", "Data Filtering", "Data Validation"],
+            "correctAnswer": "Data Validation"
           }
         ]
       },
@@ -120,10 +160,31 @@
         "image":"devopsCourse",
         "questions": [
           {
-            "questionText": "Question 1 for Course A",
-            "options": ["Option A", "Option B", "Option C"],
+            "questionText": "What does DevOps aim to achieve?",
+            "options": ["Separate development and operations tasks.", "Combine software development and IT operations.", "Eliminate the need for testing."],
+            "correctAnswer": "Combine software development and IT operations."
+          },
+          {
+            "questionText": "What is the purpose of Continuous Integration (CI) in DevOps?",
+            "options": ["Manual code integration.", "Automating code integration and testing.", "Version control only."],
+            "correctAnswer": "Automating code integration and testing."
+          },
+          {
+            "questionText": "Which tool is commonly used for containerization in DevOps?",
+            "options": ["Jenkins", "Docker", "Puppet"],
             "correctAnswer": "Option A"
+          },
+          {
+            "questionText": "What does the term nfrastructure as Code (IaC) mean in DevOps?",
+            "options": ["Writing documentation for infrastructure setup", "Managing infrastructure through code and automation", "Using physical hardware for server deployment"],
+            "correctAnswer": "Managing infrastructure through code and automation"
+          },
+          {
+            "questionText": "What does Continuous Deployment (CD) involve in DevOps?",
+            "options": ["Manual deployment after every code change", "Automated deployment to production after passing tests", "Deployment without any testing"],
+            "correctAnswer": "Automated deployment to production after passing tests"
           }
+  
         ]
       }
   ]
